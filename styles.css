@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    max-width: 750px; 
+    margin: 0 auto;   
+    padding: 0 10px;    
+    margin-top: 100px;
+
+}
+
+.container{
+position: relative;
+}
+
+.tittle{
+  text-align:left;
+  font-size: 30px;
+  margin-left: -155px;
+ 
+
+}
+
+.photo_container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:center;
+    gap: 16px;
+    
+    
+}
+.row1{
+    flex: 50%;  
+    
+}
+.row1{
+    flex: 50%;
+}
+
+
+
+
+
+
