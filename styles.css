@@ -75,24 +75,24 @@ position: relative;
   }
   
   .flipswitch-inner:before {
-    content: "✔";
+    content: "✓";
     padding-left: 15px;
     background-color: hsl(0deg 0% 41.18%);
     color: hsl(0deg 0% 67.06%);
   }
   
   .flipswitch-inner:after {
-    content: "✗";
-    padding-right: 15px;
+    content: "✕";
+    padding-right: 10px;
     background-color: hsl(0deg 0% 41.18%);
     color: hsl(0deg 0% 67.06%);
     text-align: right;
   }
   
   .flipswitch-switch {
-    width: 25px;    
+    width: 24px;    
     height: 24px;
-    margin: 6.5px;
+    margin: 4.5px;
     background: #FFFFFF;
     border-radius: 41px;
     position: absolute;
@@ -119,6 +119,25 @@ position: relative;
   }
 
   .button {
+    background-color: #6b4cd0;
+    color: #f3e0ff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-inline-start: auto;
+    height: 36px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.button1 {
     background-color: #6b4cd0;
     color: #f3e0ff;
     padding: 15px 32px;
