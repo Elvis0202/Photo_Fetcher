@@ -135,6 +135,7 @@ position: relative;
     align-items: center;
     justify-content: space-around;
     margin-top: 10px;
+    border: #6b4cd0;
 }
 
 .button1 {
@@ -154,9 +155,12 @@ position: relative;
     align-items: center;
     justify-content: space-around;
     margin-top: 10px;
+    border: #6b4cd0;
+    padding-left: 320px;
+    padding-right: 320px;
 }
 
-/* Add this to your existing CSS */
+
 
 .image_container {
     position: relative;
@@ -169,7 +173,6 @@ position: relative;
     transform: translate(-50%, -50%);
     text-align: left;
     background-color:#000103;
-    
     padding-left: 47px;
     padding-right: 51px;
     padding-top: 15px;
