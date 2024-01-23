@@ -98,12 +98,12 @@ position: relative;
     position: absolute;
     top: 0;
     bottom: 0;
-    right: 41px;
+    right: 47px;
     transition: all 0.3s ease-in 0s;
   }
   
   .flipswitch-cb:checked + .flipswitch-label .flipswitch-inner {
-    margin-left: 0;
+    margin-left: 0; 
   }
   
   .flipswitch-cb:checked + .flipswitch-label .flipswitch-switch {
@@ -154,5 +154,27 @@ position: relative;
     align-items: center;
     justify-content: space-around;
     margin-top: 10px;
+}
+
+/* Add this to your existing CSS */
+
+.image_container {
+    position: relative;
+}
+
+.static_description {
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    background-color:#000103;
+    
+    padding-left: 47px;
+    padding-right: 51px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    opacity: 0.7;
+    color: rgb(208 208 208);
 }
 
